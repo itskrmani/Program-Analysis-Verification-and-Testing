@@ -1,0 +1,20 @@
+{
+    "1": {
+        "params": "{'x': 40, 'y': 100, 'c1': 1, 'c2': 1}",
+        "constparams": "[':c1', ':c2']",
+        "coverage": "[0, 7, 8, 9, 10, 11, 8, 9, 10, 11, 8]",
+        "pc": "[0, 8, 11, 8, 11, 8]",
+        "pcEval": "[False, True, False, True, False, False]",
+        "symbEnc": "{'x': 'x', 'y': 'y + c2 + c2', 'c1': 'c1', 'c2': 'c2', '__rep_counter_2': '0'}",
+        "constraints": "[Not(x > y),\n True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n Not(False),\n True]"
+    },
+    "2": {
+        "params": "{'x': 0, 'y': -1, 'c1': 1, 'c2': 0}",
+        "constparams": "[':c1', ':c2']",
+        "coverage": "[0, 1, 2, 3, 4, 5, 2, 3, 4, 5, 2, 6]",
+        "pc": "[0, 2, 5, 2, 5, 2, 6]",
+        "pcEval": "[True, True, False, True, False, False, False]",
+        "symbEnc": "{'x': 'x + c1 + c1', 'y': 'y', 'c1': 'c1', 'c2': 'c2', '__rep_counter_1': '0'}",
+        "constraints": "[x > y,\n True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n Not(False),\n True,\n Not(False)]"
+    }
+}

@@ -1,0 +1,29 @@
+:vara = 20
+:varb = 10
+:varc = 60
+:__rep_counter_1 = 14
+(:__rep_counter_1 != 0)
+penup
+goto 0 0
+pendown
+:__rep_counter_2 = 6
+(:__rep_counter_2 != 0)
+(:vara == :varb)
+right :varb
+False
+((:vara > :varc) and (:varb < :varc))
+:vara = (:varc / :vara)
+:varb = (:varb / :varc)
+forward :vara
+right :vara
+forward :varb
+backward :varb
+forward :varc
+left :varc
+:__rep_counter_2 = (:__rep_counter_2 - 1)
+False
+left 90
+:__rep_counter_1 = (:__rep_counter_1 - 1)
+False
+penup
+forward 500

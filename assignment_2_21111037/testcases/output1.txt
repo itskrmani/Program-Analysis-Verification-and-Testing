@@ -1,0 +1,21 @@
+digraph {
+	exit [label=""]
+	0 [label=":varc = 10
+((:varc == 0) and (:vara < :varb))"]
+	1 [label=":vara = 0
+:varb = 0
+:varb = ((:vara + :varb) * :varc)"]
+	2 [label="((:varc != 0) and (:vara < :varb))"]
+	3 [label=":varb = 0"]
+	4 [label="((:vara < :varb) or (:vara == :varb))"]
+	5 [label=":vara = 0
+:varb = (-5 + 10)"]
+	0 -> 1
+	4 -> exit
+	2 -> 4
+	1 -> 2
+	3 -> 4
+	2 -> 3
+	0 -> 2
+	4 -> 5
+}

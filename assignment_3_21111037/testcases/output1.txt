@@ -1,0 +1,6 @@
+penup
+:__mtemp = 0
+:__mtemp = (:__mtemp + 30)
+:__mtemp = (:__mtemp + 40)
+forward (:__mtemp + 60)
+pendown

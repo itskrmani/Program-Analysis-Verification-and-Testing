@@ -1,0 +1,27 @@
+digraph {
+	exit [label=""]
+	0 [label=":vara = 10
+:varb = 20
+:vara = :varb
+:__rep_counter_1 = 10"]
+	1 [label="(:__rep_counter_1 != 0)"]
+	2 [label=":vara = 0
+:varb = 0
+:__rep_counter_2 = 10"]
+	3 [label="(:__rep_counter_2 != 0)"]
+	4 [label=":vara = 0
+:varb = 0
+:__rep_counter_2 = (:__rep_counter_2 - 1)
+False"]
+	5 [label=":__rep_counter_1 = (:__rep_counter_1 - 1)
+False"]
+	0 -> 1
+	1 -> 2
+	1 -> exit
+	3 -> 4
+	4 -> 3
+	5 -> 1
+	2 -> 3
+	4 -> 5
+	3 -> 5
+}

@@ -1,0 +1,28 @@
+:squareside = 5
+:__rep_counter_1 = 6
+(:__rep_counter_1 != 0)
+forward 100
+:__rep_counter_2 = 8
+(:__rep_counter_2 != 0)
+right 45
+:__rep_counter_3 = 90
+(:__rep_counter_3 != 0)
+forward 2
+right 2
+:__rep_counter_3 = (:__rep_counter_3 - 1)
+False
+:__rep_counter_4 = 4
+(:__rep_counter_4 != 0)
+forward :squareside
+left 90
+:__rep_counter_4 = (:__rep_counter_4 - 1)
+False
+:__rep_counter_2 = (:__rep_counter_2 - 1)
+False
+left 60
+:__rep_counter_1 = (:__rep_counter_1 - 1)
+False
+right 90
+penup
+forward 100
+pendown

@@ -1,0 +1,22 @@
+if ((:x < 100) || !:move ) [
+
+    left 45
+    forward 10
+    right 45
+    forward 10
+    right 45
+    backward 10
+]
+
+
+bug 2
+
+if ((:x < 100) || (:move < 20)) [
+
+    left 45
+    forward 10
+    right 45
+    forward 10
+    right 45
+    backward 10    <<<<===report bug here
+] 

@@ -1,0 +1,516 @@
+Kachua v2.3
+------------
+pendown
+if :x > 0 [
+	if :y > 0 [
+		if :z > 0[
+
+			forward :move
+			right 10
+		
+		] else [backward 10]
+		
+	] else [backward 10]
+
+	:move = :move + 10
+
+] else [backward 10]
+SBFL...
+pendown
+if :x > 0 [
+	if :y > 0 [
+		if :z > 0[
+
+			forward :move
+			right 10
+		
+		] else [backward 10]
+		
+	] else [backward 10]
+
+	:move = :move + 10
+
+] else [backward 10]
+pendown
+if :x > 0 [
+	if :y > 0 [
+		if :z > 0[
+
+			forward :move
+			right 10
+		
+		] else [backward 10]
+		
+	] else [backward 15]
+
+	:move = :move + 12
+
+] else [backward 10]
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  9
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  10
+:move = (:move + 10) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  3
+(:z > 0) ConditionCommand 4
+  Branch Instruction
+Program counter :  7
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  8
+False ConditionCommand 2
+  Branch Instruction
+Program counter :  10
+:move = (:move + 10) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  9
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  10
+:move = (:move + 10) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Iteration : 1, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 2, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 3, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 4, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 5, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 6, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 7, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 8, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 9, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 10, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 11, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 12, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 13, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 14, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 15, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 16, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 17, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 18, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 19, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 20, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 21, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 22, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 23, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 24, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 25, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 26, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 27, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 28, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 29, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 30, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 31, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 32, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 33, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 34, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 35, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 36, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 37, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 38, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 39, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 40, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 41, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 42, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 43, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 44, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 45, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 46, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 47, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 48, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 49, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 50, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 51, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 52, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 53, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 54, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 55, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 56, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 57, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 58, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 59, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 60, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 61, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 62, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 63, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 64, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 65, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 66, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 67, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 68, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 69, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 70, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 71, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 72, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 73, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 74, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 75, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 76, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 77, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 78, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 79, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 80, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 81, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 82, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 83, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 84, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 85, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 86, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 87, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 88, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 89, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 90, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 91, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 92, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 93, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 94, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 95, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 96, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 97, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 98, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 99, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Iteration : 100, Best fit-score : 0.12820512820512822, |pop|: 100, |Test-Suite| :3
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  12
+backward 10 MoveCommand 1
+  MoveCommand
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  9
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  10
+:move = (:move + 10) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  9
+backward 15 MoveCommand 1
+  MoveCommand
+Program counter :  10
+:move = (:move + 12) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  3
+(:z > 0) ConditionCommand 4
+  Branch Instruction
+Program counter :  7
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  8
+False ConditionCommand 2
+  Branch Instruction
+Program counter :  10
+:move = (:move + 10) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+Program counter :  0
+pendown PenCommand 1
+  PenCommand
+Program counter :  1
+(:x > 0) ConditionCommand 11
+  Branch Instruction
+Program counter :  2
+(:y > 0) ConditionCommand 7
+  Branch Instruction
+Program counter :  3
+(:z > 0) ConditionCommand 4
+  Branch Instruction
+Program counter :  7
+backward 10 MoveCommand 1
+  MoveCommand
+Program counter :  8
+False ConditionCommand 2
+  Branch Instruction
+Program counter :  10
+:move = (:move + 12) AssignmentCommand 1
+  Assignment Statement
+Program counter :  11
+False ConditionCommand 2
+  Branch Instruction
+[SBFL] Program Ended.
+
+DONE..

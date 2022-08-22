@@ -1,0 +1,11 @@
+{
+    "1": {
+        "params": "{'x': 40, 'y': 100, 'c1': 1, 'c2': 1}",
+        "constparams": "[':c1', ':c2']",
+        "coverage": "[0, 1, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 2]",
+        "pc": "[2, 6, 2, 6, 2, 6, 2, 6, 2, 6, 2]",
+        "pcEval": "[True, False, True, False, True, False, True, False, True, False, False]",
+        "symbEnc": "{'x': 'x + c1 + c1 + c1 + c1 + c1', 'y': 'x + 5 + c2 + c2 + c2 + c2 + c2', 'c1': 'c1', 'c2': 'c2', '__rep_counter_1': '0'}",
+        "constraints": "[True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n True,\n True,\n Not(False),\n Not(False),\n True]"
+    }
+}

@@ -1,0 +1,5 @@
+penup
+forward 30
+forward 40
+forward 60
+pendown

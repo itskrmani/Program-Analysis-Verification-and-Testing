@@ -1,0 +1,14 @@
+
+# output_3 Python program to check if the input number is odd or even.
+
+
+Assignment Statements:
+num = 89
+
+
+Branch Conditions:
+num % 2 == 0
+
+
+Loop Conditions:
+
